@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./Css/reset.css">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="Contenedorheader">
+            <div class="header">
+                    <img class="logo" src="./Imagenes/Logo.png">
+            </div>  
+        </div>
+    </header>
+    <main>
+        <article class="container">
+            <section class="Derecha" id="Derecha">
+                <textarea class="IngesoT" id="IT" placeholder="Ingrese el texto aquí" autofocus></textarea>
+               
+                <div class="Contenedorbotones">
+                    <div  class= "inter-regular  info">
+                        <img src="./Imagenes/bi_exclamation-circle-fill.png" alt="advertencia"/> Solo letras minúsculas y sin acentos
+                    </div>
+                    <div class="botones">
+                        <button id="Ben" class="inter-regular   bencriptar">Encriptar</button>
+                        <button id="Bdes" class="inter-regular    bdesencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="Izquierda" id="iz">
+                <img id="Muñeco" class="Muñeco" src="./Imagenes/Muñeco.png" alt="Ningún mensaje fue encontrado. Ingresa el texto que desees encriptar o desencriptar.">
+                <textarea id="msjfinal" class="textoFinal" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p id="Ii" class="inter-regular   info nota">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="inter-regular  bcopiar oculto" id="Bcopiar">Copiar</button>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <p class="inter-regular  By"> Creado por Mary Romero  ONE-G7 </p>
+      
+    </footer>
+    <script src="./jss/script.js"></script>
+</body>
+
+</html>
